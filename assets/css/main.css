@@ -49,3 +49,19 @@ background: linear-gradient(90deg, var(--tertiary-color) 0%, var(--quinary-color
     font-size: 0.8rem;
     color: var(--light-color);
 }
+img{
+    height: 150px;
+    width:200px ;
+}
+
+.skills__description{
+    color: var(--secondary-color);
+    font-size: small;
+}
+.skills__title{
+    color: rgb(224, 153, 21);
+}
+.skills__tittle{
+    color: var(--quinary-color);
+    font-weight: bold;
+}
