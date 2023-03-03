@@ -1,0 +1,51 @@
+/* *{
+    outline: 1px dashed lightcoral;
+} */
+
+:root{
+    --primary-color:#91BBF2;
+    --secondary-color:#035AA6;
+    --tertiary-color:#023059;
+    --quaternary-color:#011526;
+    --quinary-color:#0367A6;
+    --light-color:white;
+    --dark-color:black;
+    --grayscale:#f2f2f2;
+    
+    /*Tamanhos Padroes*/
+    
+
+
+--extra-small-size:4px;
+--small-size:8px;
+--medium-size:16px;
+--large-size:32px;
+--extra-large-size:64px:
+
+
+    
+}
+.header{
+    background: var(--tertiary-color);
+background: linear-gradient(90deg, var(--tertiary-color) 0%, var(--quinary-color) 50%, rgba(134,187,254,1) 74%, var(--primary-color) 100%);
+}
+.header__title{
+    color: var(--light-color);
+}
+
+.header__social-icons{
+    color: var(--light-color);
+} 
+
+.skills__column-left{
+    background: var(--quinary-color);
+}
+.skills__title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--light-color);
+}
+.skills__label{
+    font-size: 0.8rem;
+    color: var(--light-color);
+}
